@@ -4,16 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CrunchMaster</title>
+    <title>Memory Game|Login</title>
+    <script defer src="Js/login.js"></script>
+    <link rel="shortcut icon" href="media/pwicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="Css/reset.css" />
-    <link rel="stylesheet" href="Css/Componentes/folha.css" />
+    <link rel="stylesheet" href="Css/Componentes/login.css" />
   </head>
   <body>
-    <main>
-      <h1>Memória</h1>
-      <div id="escopo">
+    <form class="login_form">
+      <div class="login_header">
+        <img src="./media/oro.png" alt="icon abissal" />
+        <h1>Memory Game</h1>
       </div>
-    </main>
-    <script src="Js/app.js"></script>
+
+      <input type="text" placeholder="name" class="login_input" />
+      <button type="submit" disabled class="login_button">Play</button>
+    </form>
   </body>
 </html>
